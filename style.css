@@ -1,0 +1,53 @@
+p {
+	color: red
+}
+body {
+
+/*
+	background-image: url("image.jpeg");
+*/
+	background-repeat: no-repeat;
+}
+
+.delete {
+	background-color: red;
+	margin: 12px;
+	padding: 9px;
+	border: 5px;
+	color: white;
+	border-radius: 12px;
+	box-shadow: 3px 5px 5px black;
+
+}
+
+.titres li  {
+	display:inline-block;
+	background-color: blue;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+.titres >li >a  {
+	
+	color: white;
+}
+
+.update {
+	background-color: blue;
+	margin: 12px;
+	padding: 9px;
+	border: 5px;
+	color: white;
+	border-radius: 12px;
+	box-shadow: 3px 5px 5px black;
+
+}
+.nom {
+	border-radius: 12px;
+	padding: 9px;
+
+}
+#tab {
+
+	
+}
