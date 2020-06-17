@@ -8,6 +8,33 @@ body {
 */
 	background-repeat: no-repeat;
 }
+div.destination-item  {
+	color: #373737;
+	width: 250px;
+	height: 250px;
+	margin: 30px;
+	border: dashed red;
+	position: relative;
+
+}
+.destination-group {
+	display: flex;
+
+}
+.france {
+	background: url('image.jpeg');
+}
+.cameroun{
+	background: url('image_paris.jpg');
+}
+.prix {
+	background-color: red;
+	border-radius:42px;
+	padding: 12px;
+}
+
+
+
 
 .delete {
 	background-color: red;
@@ -46,6 +73,11 @@ body {
 	border-radius: 12px;
 	padding: 9px;
 
+}
+
+section {
+	display: flex;
+	display: inline-block;
 }
 #tab {
 
