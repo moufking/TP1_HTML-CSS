@@ -1,7 +1,9 @@
-.flex-menu {
+.flex-mosaique {
 	display: flex;
-	background-color:grey;
-	flex-direction: column;
-	width: 100px;
-	justify-content: space-around;
+
+}
+.flex-mosaique img {
+	display: flex;
+	border: solid;
+	margin: 12px
 }
