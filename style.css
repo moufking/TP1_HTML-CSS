@@ -1,85 +1,22 @@
-p {
-	color: red
-}
-body {
 
-/*
-	background-image: url("image.jpeg");
-*/
-	background-repeat: no-repeat;
-}
-div.destination-item  {
-	color: #373737;
-	width: 250px;
-	height: 250px;
-	margin: 30px;
-	border: dashed red;
-	position: relative;
-
-}
-.destination-group {
+.ma-zone-texte {
 	display: flex;
-
-}
-.france {
-	background: url('image.jpeg');
-}
-.cameroun{
-	background: url('image_paris.jpg');
-}
-.prix {
-	background-color: red;
-	border-radius:42px;
-	padding: 12px;
+	color: red;
+	background-color:yellow;
+	width: 50px;
+	height: 90% ;
+	border-style:solid; 
+	justify-content: space-around ; 
 }
 
-
-
-
-.delete {
-	background-color: red;
-	margin: 12px;
-	padding: 9px;
-	border: 5px;
-	color: white;
-	border-radius: 12px;
-	box-shadow: 3px 5px 5px black;
-
-}
-
-.titres li  {
-	display:inline-block;
-	background-color: blue;
-	padding: 10px;
-	border-radius: 10px;
-	
-}
-.titres >li >a  {
-	
-	color: white;
-}
-
-.update {
-	background-color: blue;
-	margin: 12px;
-	padding: 9px;
-	border: 5px;
-	color: white;
-	border-radius: 12px;
-	box-shadow: 3px 5px 5px black;
-
-}
-.nom {
-	border-radius: 12px;
-	padding: 9px;
-
-}
-
-section {
+.ma-flexbox {
 	display: flex;
-	display: inline-block;
+	flex-direction:row;
+	 background-color: blue ; 
+	 width: 190px ;
+	height: 70px ;
+	justify-content: space-evenly;
 }
-#tab {
 
-	
-}
+
+
