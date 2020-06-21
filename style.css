@@ -1,5 +1,7 @@
 .flex-menu {
 	display: flex;
 	background-color:grey;
+	flex-direction: column;
+	width: 100px;
 	justify-content: space-around;
 }
