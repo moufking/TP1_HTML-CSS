@@ -1,29 +1,5 @@
-.flex-principale {
+.flex-menu {
 	display: flex;
-	 background-color: red;
-	 width: 10%; 
+	background-color:grey;
+	justify-content: space-around;
 }
-.flex-bandeau {
-	display: flex;
-	background-color: yellow;
-	margin: 5px;
-	width: 120px;
-}
-.flex-contenu {
-	display: flex;
-	flex-direction: column;
-	background-color: blue;
-	width: 80%;
-	margin: 5px;
-}
-.info {
-	background-color: #45a7cc;
-	width: 80%;
-	margin: 5px;
-}
-
-
-
-
-
-
