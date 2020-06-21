@@ -1,22 +1,29 @@
-
-.ma-zone-texte {
+.flex-principale {
 	display: flex;
-	color: red;
-	background-color:yellow;
-	width: 50px;
-	height: 90% ;
-	border-style:solid; 
-	justify-content: space-around ; 
+	 background-color: red;
+	 width: 10%; 
+}
+.flex-bandeau {
+	display: flex;
+	background-color: yellow;
+	margin: 5px;
+	width: 120px;
+}
+.flex-contenu {
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	width: 80%;
+	margin: 5px;
+}
+.info {
+	background-color: #45a7cc;
+	width: 80%;
+	margin: 5px;
 }
 
-.ma-flexbox {
-	display: flex;
-	flex-direction:row;
-	 background-color: blue ; 
-	 width: 190px ;
-	height: 70px ;
-	justify-content: space-evenly;
-}
+
+
 
 
 
